@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "Ck_model": "5ee8317c8f508edef0ba6292ad67596a7b0442ef415af3830554bd4989e3eb8b",
+  "Ck_optim": "eea437eb164d3cf2942670bb4fb041ed1dda3caaf562e98d8d76d0f9e1f1f090",
+  "Oracle_model": "82c104109bd00d0c850d0a5f844605fba296b05343d704473594fcedb978339c",
+  "Oracle_optim": "e1e45a3d35fcd913d5bb6d9ef4edd64976f8fe9504f1d72d8602b0c5b44e173b",
+  "Replay_model": "82c104109bd00d0c850d0a5f844605fba296b05343d704473594fcedb978339c",
+  "Replay_optim": "e1e45a3d35fcd913d5bb6d9ef4edd64976f8fe9504f1d72d8602b0c5b44e173b",
+  "optimizer_component_equality": {
+    "exp_avg_equal": true,
+    "exp_avg_sq_equal": true,
+    "step_equal": true,
+    "mismatched": []
+  },
+  "replay_invariants": {
+    "applied_steps": 2,
+    "empty_logical_steps": 2,
+    "first_logical_step": 4,
+    "last_logical_step": 5
+  },
+  "oracle_invariants": {
+    "applied_steps": 4,
+    "empty_logical_steps": 2,
+    "first_logical_step": 0,
+    "last_logical_step": 5
+  },
+  "wal_stats": {
+    "records_total": 12,
+    "records_empty": 0,
+    "segment_sha256": "c760bcdbf5866876a2dc930e625ef808d45a45826ef114a735a3460863a80228"
+  },
+  "config": {
+    "N": 96,
+    "D": 8,
+    "O": 4,
+    "mb_size": 8,
+    "accum": 2,
+    "K": 2,
+    "base_seed": 1337,
+    "keep_prob": 0.8,
+    "lr0": 0.001,
+    "wd": 0.01
+  },
+  "notes": "CPU-only NumPy demo; loss=sum; per-microbatch seeds; per-step lr stored; skip-empty logical steps; hash64 is blake2b(ordered IDs)."
+}
