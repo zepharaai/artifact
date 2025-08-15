@@ -99,12 +99,12 @@ diff -u results_run1/audits.csv results/audits.csv || true
 ├─ requirements.txt
 ├─ LICENSE
 ├─ README.md
-├─ env_pins.json              # environment snapshot (optional)
-├─ artifacts/                 # created on first run
-│  ├─ ckpt_k.pth
-│  ├─ ckpt_T.pth
-│  └─ train.wal
-└─ results/                   # created on first run
+├─ env_pins.json 
+├─ exactness_demo
+├ ├─ main.py
+├ ├─ run.wal
+├ ├─ equality_proof_v2.json            
+└─ results/                   
    ├─ exactness.csv
    ├─ wal_overhead.csv
    ├─ ring_reverts.csv
