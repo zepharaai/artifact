@@ -1,0 +1,70 @@
+{
+  "cpu_os": {
+    "cpu": {
+      "logical_cores": 8
+    },
+    "os": {
+      "machine": "AMD64",
+      "platform": "Windows-10-10.0.26100-SP0",
+      "processor": "Intel64 Family 6 Model 165 Stepping 2, GenuineIntel",
+      "release": "10",
+      "system": "Windows",
+      "version": "10.0.26100"
+    },
+    "python": {
+      "executable": "D:\\Downloads\\New folder\\envs\\geo_env\\python.exe",
+      "version": "3.8.18 (default, Sep 11 2023, 13:39:12) [MSC v.1916 64 bit (AMD64)]"
+    },
+    "ram": null,
+    "time": {
+      "utc_iso": "2025-08-14T02:08:21.485511Z"
+    }
+  },
+  "determinism": {
+    "cudnn_benchmark": false,
+    "cudnn_deterministic_flag": false,
+    "torch_are_deterministic_algorithms_enabled": false
+  },
+  "env": {
+    "CUBLAS_WORKSPACE_CONFIG": null,
+    "CUDA_VISIBLE_DEVICES": null,
+    "HF_HOME": null,
+    "MKL_NUM_THREADS": null,
+    "NCCL_ALGO": null,
+    "NCCL_DEBUG": null,
+    "NCCL_P2P_DISABLE": null,
+    "OMP_NUM_THREADS": null,
+    "PYTHONHASHSEED": null,
+    "TOKENIZERS_PARALLELISM": null,
+    "TRANSFORMERS_CACHE": null
+  },
+  "git": null,
+  "gpu_cuda": {
+    "cuda_visible_devices": null,
+    "cudnn_benchmark": false,
+    "cudnn_deterministic_flag": false,
+    "cudnn_version": null,
+    "gpus": [],
+    "nvidia_driver_version": null,
+    "nvidia_smi_query": [
+      {
+        "driver_version": "531.41",
+        "name": "NVIDIA GeForce GTX 1650",
+        "total_memory": "4096 MiB"
+      }
+    ],
+    "nvidia_smi_top": "GPU 0: NVIDIA GeForce GTX 1650 (UUID: GPU-216b60ac-bba7-f068-3692-9bd85669db43)",
+    "torch_cuda_available": false,
+    "torch_version": "2.2.1+cpu",
+    "torch_version_cuda": null
+  },
+  "libraries": {
+    "datasets": "3.1.0",
+    "numpy": "1.24.3",
+    "pandas": "2.0.3",
+    "scikit_learn": "1.3.2",
+    "tokenizer_files_sha256": null,
+    "tqdm": "4.67.1",
+    "transformers": "4.46.3"
+  }
+}
